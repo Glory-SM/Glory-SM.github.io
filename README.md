@@ -1,4 +1,4 @@
-# Glory-SM Resume Website
+# Glory-SM Portfolio
 
 This repository hosts my resume website for [UCF IT course assignment].
 
