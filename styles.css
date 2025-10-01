@@ -31,17 +31,28 @@ section { margin:1rem 0; padding:0.5rem 0; }
 /* project image */
 /*figure { margin:0 0 1rem 0; }
 figure img { width:100%; height:auto; border-radius:8px; }*/
-figure img {
-  width: 300px;   
-  height: auto;
+/* Container prevents horizontal overflow */
+.container {
+  max-width: 100vw;   /* never wider than viewport */
+  overflow-x: hidden;  /* hides any horizontal scroll */
+  padding: 0 10px;    /* optional small padding */
+  box-sizing: border-box;
+}
+
+/* Project 1 image */
+.project1-img {
+  width: 100%;        /* fill container */
+  max-width: 200px;   /* shrink for large screens */
+  height: auto;       /* keep aspect ratio */
+  display: block;
+  margin: 0 auto;     /* center it */
   border-radius: 8px;
 }
-.project1-img {   
-  width: 100px;       
-  height: auto;       
-  display: block;
-  margin: 0 auto;     
-  border-radius: 8px; 
+
+/* Figure element */
+figure {
+  margin: 0;
+  padding: 0;
 }
 
 /* footer */
