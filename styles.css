@@ -36,7 +36,14 @@ figure img {
   height: auto;
   border-radius: 8px;
 }
-
+.project-img {
+  max-width: 500px;   
+  width: 100%;        
+  height: auto;
+  display: block;
+  margin: 0 auto;     
+  border-radius: 8px; 
+}
 
 /* footer */
 .site-footer { border-top:1px solid #eaeaea; padding:.75rem 0; text-align:center; font-size:.9rem; color:#555; }
