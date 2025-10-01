@@ -36,9 +36,8 @@ figure img {
   height: auto;
   border-radius: 8px;
 }
-.project1-img {
-  max-width: 100vw;   
-  width: 100%;        
+.project1-img {   
+  width: 100px;       
   height: auto;       
   display: block;
   margin: 0 auto;     
